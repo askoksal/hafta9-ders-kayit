@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ders Kayıt Hizmeti</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body><main><p class="eyebrow">BULUT BİLİŞİM · HAFTA 9</p><h1>{{ banner }}</h1>
+<p>Bu hizmet örnek verilerle çalışır. Kayıtlar bellekte tutulur; yeniden başlatma veya sürüm güncellemesinde silinir.</p>
+<p id="version">Sürüm okunuyor…</p><h2>Dersler</h2><ul id="courses"></ul>
+<h2>Örnek Kayıt Oluştur</h2><form id="form">
+<label>Örnek öğrenci kimliği<input id="student" value="DEMO001" pattern="DEMO[0-9]{3}" required></label>
+<label>Ders<select id="course"></select></label>
+<label>Erişim belirteci<input id="token" type="password" autocomplete="off" minlength="32" required></label>
+<button type="submit">Kaydı Gönder</button></form><p>Belirteç tarayıcı depolamasına kaydedilmez. Gerçek öğrenci bilgisi girmeyin.</p>
+<p id="result" role="status" aria-live="polite"></p></main></body></html>

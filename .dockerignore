@@ -1,0 +1,10 @@
+*
+!app/
+!app/**
+!tests/
+!tests/**
+!wsgi.py
+!requirements.lock
+!requirements-test.lock
+**/__pycache__/
+**/.pytest_cache/

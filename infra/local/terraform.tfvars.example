@@ -1,0 +1,4 @@
+# Kopyalayınca gerçek GHCR kullanıcı adı ve tam digest ile değiştirin.
+image_ref = "ghcr.io/kullanici/hafta9-ders-kayit@sha256:DIGEST_DEGERI"
+replicas  = 1
+banner    = "Hafta 9 Ders Kayıt Hizmeti"

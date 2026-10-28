@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-22",
+  "terraform": "1.17.0",
+  "kubernetes_provider": "3.4.0",
+  "python_image": "python:3.14-slim@sha256:0514bc76712d64f8bb48adcb95b1ab0d88c69fee95d62fe4c18ee948bee9b1e1",
+  "actions": {
+    "checkout": {
+      "repo": "actions/checkout",
+      "tag": "v7.0.1",
+      "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1"
+    },
+    "buildx": {
+      "repo": "docker/setup-buildx-action",
+      "tag": "v4.4.1",
+      "sha": "f87e5991a6d7451dcb8d9637bfbc97413f497069"
+    },
+    "login": {
+      "repo": "docker/login-action",
+      "tag": "v4.6.0",
+      "sha": "dbcb813823bdd20940b903addbd779551569679f"
+    },
+    "build": {
+      "repo": "docker/build-push-action",
+      "tag": "v7.4.0",
+      "sha": "c3c9e263c25d99ce0380d002d59b67737d91b0dc"
+    },
+    "terraform": {
+      "repo": "hashicorp/setup-terraform",
+      "tag": "v4.0.1",
+      "sha": "dfe3c3f87815947d99a8997f908cb6525fc44e9e"
+    }
+  }
+}

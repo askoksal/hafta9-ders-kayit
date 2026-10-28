@@ -1,0 +1,17 @@
+.local/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+!*.auto.tfvars.example
+.env
+.env.*
+kubeconfig*
+crash.log
+test-results/
