@@ -8,7 +8,7 @@ from flask import Flask, jsonify, render_template, request
 from werkzeug.exceptions import HTTPException
 
 COURSES = (
-    {"id": "BULUT101", "name": "Bulut Bilişim", "capacity": 2},
+    {"id": "BULUT101", "name": "Bulut Bilişim", "capacity": 3},
     {"id": "YAZ102", "name": "Yazılım Mühendisliği", "capacity": 3},
 )
 
