@@ -13,7 +13,7 @@ COPY tests ./tests
 CMD ["python", "-m", "pytest", "-q", "-p", "no:cacheprovider"]
 
 FROM base AS runtime
-ARG APP_VERSION=1.0.0
+ARG APP_VERSION=1.0.1
 ARG SOURCE_COMMIT=local
 ENV APP_VERSION=${APP_VERSION} SOURCE_COMMIT=${SOURCE_COMMIT}
 LABEL org.opencontainers.image.revision=${SOURCE_COMMIT}
